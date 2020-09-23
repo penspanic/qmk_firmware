@@ -10,8 +10,8 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT(LGUI(LSFT(KC_1)), LGUI(S(KC_GRAVE)), LGUI(KC_GRAVE),
-               KC_KP_4, KC_KP_5, KC_KP_6,
-               LT(1, KC_MPLY), LT(2, KC_KP_2), KC_DELETE),
+               KC_KP_4, KC_KP_5, KC_APP,
+               LT(1, KC_MPLY), LT(2, KC_MFFD), KC_DELETE),
 
   [1] = LAYOUT(RGB_RMOD, RGB_VAI, KC_GESC,
                RGB_HUI, RGB_HUD, RGB_SAI,
